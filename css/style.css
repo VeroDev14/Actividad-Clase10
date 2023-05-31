@@ -1,0 +1,102 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
+.barra-dscto p{
+    background-color: #1CD1B0;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 32px;
+}
+
+.titulo h1{
+    background-color: #00669F;
+    font-size: 40px;
+    margin: 0;
+    padding: 20px 32px;
+    font-weight: 400;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.cards{
+    padding: 200px 50px 140px;  
+    text-align: center;  
+}
+
+.card {
+    background-color:#F3F3F3;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    display: inline-block;
+    height: 529px;
+    width: 300px;
+    margin: auto 15px;
+}
+
+.head-card {
+    position: relative;
+}
+
+.img-card{
+    height: 194px;
+    width: 300px;
+}
+
+.icon-card {
+    position: absolute;
+    top: 15px;
+    left: 21px;
+}
+
+.img-perfil {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 127px;
+    left: 90px;
+}
+
+.info-card {
+    padding: 0 16px;
+    text-align: center;
+}
+
+.titulo-card {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 70px;
+    font-weight: 400;
+}
+
+.bio-card {
+    font-size: 16px;
+    color: #333333;
+    text-align: left;
+}
+
+.btn-card {
+    background-color: #00669F;
+    padding: 15px 37px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #F3F3F3;
+    border: none;
+    cursor: pointer;
+}
+
+.copyright {
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 32px;
+    margin: 0;
+}
